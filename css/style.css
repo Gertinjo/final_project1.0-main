@@ -820,3 +820,167 @@ p {
   line-height: 1.5;
   color: #333;
 }
+
+
+.contact-form-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the form header */
+.contact-form-container h2 {
+  color: #001f3d;  /* VW blue */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Style the labels */
+label {
+  font-size: 1rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Style the input fields and textarea */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Add focus effect on inputs */
+input:focus, textarea:focus {
+  border-color: #001f3d;  /* VW blue */
+  outline: none;
+}
+
+/* Style the submit button */
+button {
+  background-color: #001f3d;  /* VW blue */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003366;  /* Darker blue for hover effect */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .contact-form-container {
+      padding: 20px;
+  }
+  button {
+      width: 100%;
+  }
+}
+
+
+.team-header {
+  background-color: #001f3d; /* VW Blue */
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.team-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.team-header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Team Section */
+.team-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-member {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #001f3d;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-style: italic;
+  color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .team-member {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .team-header h1 {
+      font-size: 2.5rem;
+  }
+
+  .team-header p {
+      font-size: 1rem;
+  }
+}
+
+.babja {
+  height: 100px;
+  width: 50px;
+}
